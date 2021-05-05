@@ -83,3 +83,7 @@ ctx.stroke();
 Last_position_of_touch_X=current_position_of_touch_X;
 Last_position_of_touch_Y=current_position_of_touch_Y;
 }
+function clear_area()
+{
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+}
